@@ -1,9 +1,5 @@
-if game.PlaceId == 70876832253163 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/losiu-nnos/scripts/main/deadrails.lua"))() -- ded rails game
-
-elseif game.PlaceId == 116495829188952 then
-    game.Players.LocalPlayer:Kick("script won't work in the lobby, enter a game") -- ded rails lobby
-
+if game.PlaceId == 13822889 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/losiu-nnos/scripts/main/lt2.lua"))() -- lt2 (lumber tycoon 2)
 else
-    game.Players.LocalPlayer:Kick("game not supported yet")
+    game.Players.LocalPlayer:Kick("game not supported")
 end
